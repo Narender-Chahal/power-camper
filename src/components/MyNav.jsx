@@ -30,34 +30,34 @@ function MyNav() {
               <li className="hover_line position-relative">
                 <a
                   onClick={() => setfirst(false)}
-                  className="fw-bold fs_xsm text-white"
+                  className="fw-bold fs_xsm ff_comic text-white"
                   href="#"
                 >
                   Home
                 </a>
               </li>
               <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm text-white" href="#">
+                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
                   Campgrounds
                 </a>
               </li>
               <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm text-white" href="#">
+                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
                   About us
                 </a>
               </li>
               <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm text-white" href="#">
+                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
                   Contact
                 </a>
               </li>
               <li className="pt-2 ms-lg-5 ms-md-3 ps-lg-5">
-                <button className="fw-bold fs_xsm text-white btn_sign_up">
+                <button className="fw-bold fs_xsm ff_comic text-white btn_sign_up">
                   Sign Up
                 </button>
               </li>
               <li className="pt-2 ps-md-3 mt-3 mt-md-0">
-                <button className="fw-bold fs_xsm text-white log_in_btn">
+                <button className="fw-bold fs_xsm ff_comic text-white log_in_btn">
                   Log in
                 </button>
               </li>
