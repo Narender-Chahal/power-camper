@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ff_calibiri {
+  font-family: "calibiri";
 }
+@font-face {
+  font-family: "Comic Gecko";
+  src: url(./assets//fonts//comic_gecko/Comic\ Gecko\ Pro.otf);
+}
+.ff_comic {
+  font-family: "Comic Gecko";
+}
+.custom_container {
+  max-width: 1140px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.nav_bg {
+  background: #025928;
+}
+:root {
+  --fs-xsm: 16px;
+  --fs-sm: 36px;
+  --clr-brown: #b7d0c2;
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.clr_brown {
+  color: var(--clr-brown);
+}
+ul {
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.hover_line::after {
+  content: "";
+  position: absolute;
+  background: #26a646;
+  height: 2px;
+  width: 0%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease-in-out;
+}
+.hover_line:hover::after {
+  width: 100%;
+}
+.hover_line {
+  padding: 27px 10px 17px;
+  transition: all 0.5s ease-in-out;
+}
+.hover_line:hover {
+  background: #0f6133;
+  padding: 27px 10px 17px;
+}
+.btn_sign_up {
+  background-color: transparent;
+  border: 2px solid #26a646;
+  border-radius: 30px;
+  width: 120px;
+  height: 42px;
+  transition: all 0.5s ease-in-out;
+}
+.btn_sign_up:hover {
+  background-color: #26a646;
+}
+.log_in_btn {
+  background-color: #26a646;
+  width: 120px;
+  height: 42px;
+  border: 2px solid #26a646;
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.log_in_btn:hover {
+  background: transparent;
+}
+.icons {
+  background-color: white;
+  height: 2px;
+  width: 30px;
+}
+.h_20 {
+  height: 20px;
+  cursor: pointer;
+}
+.z_index {
+  z-index: 5;
+}
+.bg_img {
+  background-image: url(./assets/img/png/bg_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box_big {
+  background: linear-gradient(
+      162.43deg,
+      #26a646 0.23%,
+      #025928 22.1%,
+      #025928 76.31%,
+      #26a646 103.78%
+    ),
+    #025928;
+  box-shadow: 0px 20px 80px rgba(16, 18, 17, 0.01);
+  border-radius: 8px;
+  max-width: 584px;
+}
+.small_box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 4px 16px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18.5px);
+  max-width: 544px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  border-radius: 8px;
+}
+.circle_white {
+  border: 2px solid #ffffff;
+  border-radius: 139.775px;
+  width: 88px;
+  height: 89px;
+  transition: all 0.5s ease-in-out;
+}
+.circle_white:hover {
+  border: 2px solid #26a646;
+  background-color: #26a646;
+}
+.circle_brown {
+  border: 2px solid #b8b8b8;
+  border-radius: 139.775px;
+  width: 88px;
+  height: 89px;
+  transition: all 0.5s ease-in-out;
+}
+.circle_brown:hover {
+  border: 2px solid #26a646;
+  background-color: #26a646;
+}
+.ajust_text_cross {
+  top: 70%;
+  right: 8%;
+}
+.adjust_dotted_img {
+  top: 0;
+  right: -20%;
+}
+.adjust_dotted_img2 {
+  top: 70%;
+  left: -20%;
+}
+.overflow_hidden {
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .open_nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #025928;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+  }
+
+  .close_nav {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #025928;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 576px) {
+  .overflow_hidden {
+    overflow: visible;
   }
-  to {
-    transform: rotate(360deg);
+  .hover_line {
+    padding: 10px 5px 10px;
+    transition: all 0.5s ease-in-out;
+  }
+  .hover_line:hover {
+    background: #0f6133;
+    padding: 10px 5px 10px;
+  }
+  .width_xsm {
+    width: 70px;
   }
 }
