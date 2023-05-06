@@ -31,8 +31,10 @@ function HeaderSection() {
             <img src={star_img} alt="star_img" />
             <p className="mb-0 ff_calibiri fw-normal fs_xsm clr_brown pt-3">
               5685 Lake Michigan Rd, Honor, MI 49640, United States{" "}
-              <span className="d-block">Contact: +1 231 326 5134</span>{" "}
-              www.example.com
+              <span className="d-block cursoir_pointer">
+                Contact: +1 231 326 5134
+              </span>{" "}
+              <span className="cursoir_pointer">www.example.com</span>
             </p>
             <Row className="mx-auto mt-4 ">
               <Col sm={4} xs={6} className="mt-2 justify-content-center d-flex">

@@ -8,6 +8,7 @@
 .ff_calibiri {
   font-family: "calibiri";
 }
+
 @font-face {
   font-family: "Comic Gecko";
   src: url(./assets//fonts//comic_gecko/Comic\ Gecko\ Pro.otf);
@@ -42,6 +43,9 @@
 ul {
   margin-bottom: 0 !important;
   padding-left: 0 !important;
+}
+.cursoir_pointer {
+  cursor: pointer;
 }
 .hover_line::after {
   content: "";
