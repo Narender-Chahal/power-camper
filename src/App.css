@@ -48,7 +48,7 @@ ul {
   cursor: pointer;
 }
 .hover_line::after {
-  content: "";
+  content: "";                                        
   position: absolute;
   background: #26a646;
   height: 2px;
@@ -62,12 +62,12 @@ ul {
   width: 100%;
 }
 .hover_line {
-  padding: 27px 10px 17px;
+  padding: 30px 10px 17px;
   transition: all 0.5s ease-in-out;
 }
 .hover_line:hover {
   background: #0f6133;
-  padding: 27px 10px 17px;
+  padding: 30px 10px 17px;
 }
 .btn_sign_up {
   background-color: transparent;
@@ -167,7 +167,7 @@ ul {
 .overflow_hidden {
   overflow: hidden;
 }
-@media (max-width: 768px) {
+@media (max-width: 768.98px) {
   .open_nav {
     position: absolute;
     top: 0;
@@ -190,7 +190,7 @@ ul {
     z-index: 1;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 576.98px) {
   .overflow_hidden {
     overflow: visible;
   }
