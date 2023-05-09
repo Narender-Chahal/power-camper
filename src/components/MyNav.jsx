@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/png/logo.png";
+import closbtn from "../assets/img/png/closebtn.png"
 function MyNav() {
   const [first, setfirst] = useState(false);
   if (first) {
@@ -23,41 +24,62 @@ function MyNav() {
                   : "d-flex align-items-center flex-column flex-md-row justify-content-center close_nav "
               }
             >
-              <button
+              <a
                 onClick={() => setfirst(false)}
-                className="btn-close position-absolute top-0 end-0 m-3 d-md-none text-white fs- border-1 bg-white p-3 "
-              ></button>
-              <li className="hover_line position-relative">
+                className=" position-absolute top-0 end-0 m-3 d-md-none   "
+                href="#"
+              >
+                <img width={40} className="rounded-5" src={closbtn} alt="closbtn" />
+              </a>
+              <li className=" ">
                 <a
                   onClick={() => setfirst(false)}
-                  className="fw-bold fs_xsm ff_comic text-white"
+                  className="fw-bold fs_xsm ff_comic text-white hover_line position-relative"
                   href="#"
                 >
                   Home
                 </a>
               </li>
-              <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
+              <li className=" ms-md-2 mt-3 mt-md-0 ">
+                <a
+                  onClick={() => setfirst(false)}
+                  className="fw-bold fs_xsm ff_comic text-white hover_line position-relative"
+                  href="#"
+                >
                   Campgrounds
                 </a>
               </li>
-              <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
+              <li className=" ms-md-2 mt-3 mt-md-0 ">
+                <a
+                  onClick={() => setfirst(false)}
+                  className="fw-bold fs_xsm ff_comic text-white hover_line position-relative"
+                  href="#"
+                >
                   About us
                 </a>
               </li>
-              <li className="hover_line position-relative ms-md-2">
-                <a className="fw-bold fs_xsm ff_comic text-white" href="#">
+              <li className=" ms-md-2 mt-3 mt-md-0">
+                <a
+                  onClick={() => setfirst(false)}
+                  className="fw-bold fs_xsm ff_comic text-white hover_line position-relative  "
+                  href="#"
+                >
                   Contact
                 </a>
               </li>
-              <li className="pt-2 ms-lg-5 ms-md-3 ps-lg-5">
-                <button className="fw-bold fs_xsm ff_comic text-white btn_sign_up">
+              <li className="pt-1 ms-lg-5 ms-md-3 mt-3 mt-md-0 ps-lg-5">
+                <button
+                  onClick={() => setfirst(false)}
+                  className="fw-bold fs_xsm ff_comic text-white btn_sign_up"
+                >
                   Sign Up
                 </button>
               </li>
-              <li className="pt-2 ps-md-3 mt-3 mt-md-0">
-                <button className="fw-bold fs_xsm ff_comic text-white log_in_btn">
+              <li className="pt-1 ps-md-3 mt-3 mt-md-0">
+                <button
+                  onClick={() => setfirst(false)}
+                  className="fw-bold fs_xsm ff_comic text-white log_in_btn"
+                >
                   Log in
                 </button>
               </li>

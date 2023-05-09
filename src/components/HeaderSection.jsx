@@ -8,8 +8,8 @@ import dotted_img1 from "../assets/img/png/doted_img1.png";
 import dotted_img2 from "../assets/img/png/doted_img2.png";
 function HeaderSection() {
   return (
-    <section className="overflow_hidden p-3">
-      <div className="box_big mx-auto py-sm-4 py-3 px-3 px-sm-0 mt-5 position-relative mb-5">
+    <section className="overflow-hidden px-3 py-5 mb-sm-5">
+      <div className="box_big mx-auto py-sm-4 py-3  px-3 px-sm-0  position-relative ">
         <img
           className="position-absolute adjust_dotted_img d-none d-sm-flex"
           src={dotted_img2}
@@ -60,7 +60,7 @@ function HeaderSection() {
               <Col
                 sm={4}
                 xs={6}
-                className="mt-sm-2 mt-4  pt-3 pt-sm-0 justify-content-center d-flex"
+                className="mt-sm-4 mt-3 pt-sm-3 pt-sm-0 justify-content-center d-flex"
               >
                 <div className="circle_white  d-flex justify-content-center flex-column">
                   <h3 className="mb-0 fw-bold fs_xsm ff_calibiri text-white">
@@ -74,7 +74,7 @@ function HeaderSection() {
               <Col
                 sm={4}
                 xs={6}
-                className="mt-4 pt-3 justify-content-center d-flex"
+                className="mt-sm-4 mt-3 pt-sm-3 justify-content-center d-flex"
               >
                 <div className="circle_brown  d-flex justify-content-center flex-column">
                   <img src={dog_img} alt="dog_img" />
@@ -83,7 +83,7 @@ function HeaderSection() {
               <Col
                 sm={4}
                 xs={6}
-                className="mt-4 pt-3 justify-content-center d-flex"
+                className="mt-sm-4 mt-3 pt-sm-3 justify-content-center d-flex"
               >
                 <div className="circle_brown  d-flex justify-content-center flex-column">
                   <img src={light_img} alt="light_img" />
@@ -92,7 +92,7 @@ function HeaderSection() {
               <Col
                 sm={4}
                 xs={6}
-                className="mt-4 pt-3 justify-content-center d-flex"
+                className="mt-sm-4 mt-3 pt-sm-3 justify-content-center d-flex"
               >
                 <div className="circle_brown  d-flex justify-content-center flex-column">
                   <h3 className="mb-0 ff_calibiri fs_xsm fw-normal clr_brown position-relative">
