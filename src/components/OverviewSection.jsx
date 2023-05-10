@@ -94,7 +94,7 @@ function OverviewSection() {
               </div>
             </div>
           </Col>
-          <Col lg={6} sm={10} xs={10}>
+          <Col lg={6} sm={10} xs={11}>
             <div className="green_gradient_box pt-sm-5 pt-3 px-sm-5 px-3 pb-sm-4 pb-3 mt-5 mt-lg-0 h-100">
               <h2 className="mb-0 fw-bold fs_sm  ff_comic text-white pb-3">
                 Platte River Sold Out? We can get you a reservation!

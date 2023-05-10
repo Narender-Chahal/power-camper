@@ -60,7 +60,7 @@ function HeaderSection() {
               <Col
                 sm={4}
                 xs={6}
-                className="mt-sm-4 mt-3 pt-sm-3 pt-sm-0 justify-content-center d-flex"
+                className="mt-3 mt-sm-2  justify-content-center d-flex"
               >
                 <div className="circle_white  d-flex justify-content-center flex-column">
                   <h3 className="mb-0 fw-bold fs_xsm ff_calibiri text-white">

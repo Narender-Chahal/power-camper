@@ -209,11 +209,11 @@ function RatingSection() {
                   </p>
                 </Col>
               </Row>{" "}
-              <div className="d-flex align-items-center mt-4">
-                <button className=" ff_comic fw-bold fs_xsm btn_member text-white d-none d-sm-block mt-lg-5   mb-sm-0">
+              <div className="d-flex align-items-center justify-content-center justify-content-sm-start mt-4">
+                <button className=" ff_comic fw-bold fs_xsm btn_member text-white d-none d-sm-block   mb-sm-0">
                   Member
                 </button>
-                <button className=" ff_comic fw-bold fs_xsm btn_helfull text-white mt-xl-4 ms-5   ">
+                <button className=" ff_comic fw-bold fs_xsm btn_helfull text-white  ms-sm-5   ">
                   Helpful{" "}
                 </button>
               </div>
